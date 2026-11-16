@@ -6,10 +6,8 @@ import json
 import threading
 from dotenv import load_dotenv
 
-load_dotenv()
-
-API_KEY = os.getenv("API_KEY")
-webhook_url = os.getenv("WEBHOOK_URL")
+API_KEY = "YOUR_API_KEY"
+webhook_url = "YOUR_WEBHOOK_URL"
 
 bot = telebot.TeleBot(API_KEY)
 
